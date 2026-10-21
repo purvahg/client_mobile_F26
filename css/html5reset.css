@@ -1,0 +1,66 @@
+
+/* ========================================
+   HTML5 Reset CSS
+   Shared across all four UMSI pages
+   ======================================== */
+
+/* 1. Reset default spacing and box sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Set consistent defaults for the document */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 1.5;
+}
+
+/* 3. Make HTML5 semantic elements consistent */
+header,
+nav,
+main,
+section,
+article,
+aside,
+footer,
+figure,
+figcaption {
+    display: block;
+}
+
+/* 4. Make images responsive by default */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 5. Remove default list styling */
+ul,
+ol {
+    list-style: none;
+}
+
+/* 6. Make links inherit the surrounding text color */
+a {
+    color: inherit;
+}
+
+/* 7. Make form elements inherit the page font */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* 8. Make tables consistent */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
